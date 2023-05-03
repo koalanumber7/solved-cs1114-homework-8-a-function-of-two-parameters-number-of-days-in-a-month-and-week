@@ -1,0 +1,17 @@
+Download Link: https://assignmentchef.com/product/solved-cs1114-homework-8-a-function-of-two-parameters-number-of-days-in-a-month-and-week
+<br>
+Homework # 8Key points in this homework:– ‘for’ and ‘while’ loops.– Function.
+
+Note: do NOT use syntax that was not covered in class.
+
+Question 1: Calendara. Write a function that is given two parameters: 1. The number of days in a month and 2. The day of the week (number 1-7) that represents the day that the month starts.The function should print a formatted monthly calendar of that month. Note:‘formatted’ means you should use tabs to separate each number on the same row.Also, your function should return the day of the week of the first day of the next month.Example: given 31 days and 4 as the day the month starts, your function should print:
+
+And day of the week the first day of the next month is 7. b. Textbook P. 279, Q12.A method for determining if a year is a leap year in the Gregorian calendar system is to check if it is divisible by 4 but not by 100, unless it is also divisible by 400. For example, 1896, 1904, and 2000 were leap years but 1900 was not. Write a function that takes in a year as input and return true if the year is a leap year, return false otherwise.Note: background on leap year https://en.wikipedia.org/wiki/Leap_yearc. Write a function that is given: 1. a year 2. the day of the week of 1/1 of that year. The function should print a yearly calendar of that year (using the functions from sections a and b).See Appendix A. for an example.d. Write a driver program, ie. ‘main()’, that interacts with the user and your function in c.
+
+Question 2: Reversing words in a phrasea. write a function that is given a phrase and returns the first word in that phrase. For example, given ‘the quick brown fox’, your function should return ‘the’.b. Write a function that is given a phrase and returns the phrase we get if we take out the first word from the input phrase.For example, given ‘the quick brown fox’, your function should return ‘quick brown fox’ c. Use the functions from a and b to implement a function that given a phrase, it reverses the words in that phrase (and returns it)For example, given ‘the quick brown fox jumps over a lazy dog”, your function should return ‘dog lazy a over jumps fox brown quick the’.d. Write a driver program, ie., ‘main()’, that interacts with the user and uses function you wrote for c.Note: Assume the followings are true1. The phrase is a sequence of words separated with a single space.2. All letters in the phrase are lowercase.3. The phrase does not contains any special symbols or punctuation marks
+
+Question 3:Write a program that, given an integer n and m, draws a ‘pine tree’ consisting of n triangles formed by a character of user’s choice, ie., ‘*’,’+’, etc. ‘m’ specifies the number of spaces this triangle should shift from the left margin.Your program should consist of three functions:1) a function that draws a triangle, given an integer,2) a function that draws the tree given n, m and character to be drawn, and 3)a driver function that interacts with the user, ie., prompts for input of n, m and the character to be drawn.Expected output for n=3, m=8, char=’*’:** * *** * ** * * * *** * ** * * * ** * * * * * *
+
+Hint: You can modify the code for Lab 5, Problem 1. A sample code is as attached.
+
+Appendix A.Problem 1c. Expected output given year 2015 and day of the week of 1/1 of 2015 4.
